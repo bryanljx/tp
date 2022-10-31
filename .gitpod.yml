@@ -6,7 +6,7 @@ image:
 
 tasks:
   - init: ./gradlew build
-    command: java -jar build/libs/foodrem.jar
+    command: ./gradlew run
 
 ports:
   - port: 6080
